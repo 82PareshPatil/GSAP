@@ -130,9 +130,10 @@ const timelineItems = [
     year: "1989",
     theme: "kikis",
     tiles: [
-      { type: "image", pos: "pos-top-left-10", w: "25vw", ratio: "16 / 9", src: "https://www.ghibli.jp/gallery/kiki033.jpg", alt: "Kiki flying", depth: 10, z: 1 },
+      { type: "image", pos: "pos-top-left-10", w: "25vw", ratio: "16 / 9", src: "https://i.pinimg.com/1200x/f9/8a/6d/f98a6d4b279069a7e394b37164a86054.jpg", alt: "Kiki flying", depth: 10, z: 1 },
       { type: "text", pos: "pos-bottom-right", w: "500px", ratio: "16 / 9", heading: "Kiki's Delivery Service", copy: "A young witch moves to a new town and uses her flying ability to earn a living.", depth: 20, z: 4 },
-      { type: "image", pos: "pos-bottom-left", w: "35vw", ratio: "16 / 9", src: "https://www.ghibli.jp/gallery/kiki001.jpg", alt: "Kiki", depth: 25, z: 1 }
+      /* High-reliability test video */
+      { type: "video", pos: "pos-bottom-left", w: "35vw", ratio: "16 / 9", src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4", alt: "Kiki Video", depth: 25, z: 1 }
     ],
   },
   {
@@ -142,7 +143,7 @@ const timelineItems = [
     tiles: [
       { type: "image", pos: "pos-top-right", w: "30vw", ratio: "16 / 9", src: "https://www.ghibli.jp/gallery/totoro001.jpg", alt: "Catbus", depth: 15, z: 2 },
       { type: "text", pos: "pos-top-left-10", w: "450px", ratio: "1 / 1", heading: "My Neighbor Totoro", copy: "Two sisters move to the country and encounter friendly forest spirits.", depth: 10, z: 3 },
-      { type: "image", pos: "pos-bottom-center-lg", w: "40vw", ratio: "16 / 9", src: "https://www.ghibli.jp/gallery/totoro012.jpg", alt: "Totoro", depth: 30, z: 1 }
+      { type: "video", pos: "pos-bottom-center-lg", w: "40vw", ratio: "16 / 9", src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4", alt: "Totoro Video", depth: 30, z: 1 }
     ],
   },
   {
@@ -152,7 +153,7 @@ const timelineItems = [
     tiles: [
       { type: "image", pos: "pos-bottom-left-10", w: "28vw", ratio: "16 / 9", src: "https://www.ghibli.jp/gallery/mononoke007.jpg", alt: "San", depth: 20, z: 2 },
       { type: "text", pos: "pos-top-right", w: "400px", ratio: "16 / 9", heading: "Princess Mononoke", copy: "A journey to find a cure for a curse leads to a war between forest gods and humans.", depth: 15, z: 4 },
-      { type: "image", pos: "pos-top-quarter-left", w: "30vw", ratio: "4 / 3", src: "https://www.ghibli.jp/gallery/mononoke014.jpg", alt: "Ashitaka", depth: 5, z: 1 }
+      { type: "video", pos: "pos-top-quarter-left", w: "30vw", ratio: "4 / 3", src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", alt: "Mononoke Video", depth: 5, z: 1 }
     ],
   },
   {
@@ -162,7 +163,7 @@ const timelineItems = [
     tiles: [
       { type: "image", pos: "pos-top-left", w: "35vw", ratio: "16 / 9", src: "https://www.ghibli.jp/gallery/chihiro001.jpg", alt: "Chihiro", depth: 10, z: 2 },
       { type: "text", pos: "pos-bottom-left", w: "500px", ratio: "16 / 9", heading: "Spirited Away", copy: "A girl wanders into a world ruled by gods, witches, and spirits.", depth: 25, z: 3 },
-      { type: "image", pos: "pos-bottom-right-10", w: "25vw", ratio: "16 / 9", src: "https://www.ghibli.jp/gallery/chihiro043.jpg", alt: "Haku", depth: 15, z: 1 }
+      { type: "video", pos: "pos-bottom-right-10", w: "25vw", ratio: "16 / 9", src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4", alt: "Spirited Video", depth: 15, z: 1 }
     ],
   },
   {
@@ -172,7 +173,7 @@ const timelineItems = [
     tiles: [
       { type: "image", pos: "pos-top-right", w: "32vw", ratio: "16 / 9", src: "https://www.ghibli.jp/gallery/howl005.jpg", alt: "Moving Castle", depth: 10, z: 2 },
       { type: "text", pos: "pos-bottom-center-lg", w: "480px", ratio: "16 / 9", heading: "Howl's Moving Castle", copy: "A young woman is cursed with an old body and seeks a wizard for help.", depth: 20, z: 4 },
-      { type: "image", pos: "pos-top-left-10", w: "28vw", ratio: "16 / 9", src: "https://www.ghibli.jp/gallery/howl012.jpg", alt: "Sophie", depth: 30, z: 1 }
+      { type: "video", pos: "pos-top-left-10", w: "28vw", ratio: "16 / 9", src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4", alt: "Howl Video", depth: 30, z: 1 }
     ],
   },
   {
@@ -182,7 +183,7 @@ const timelineItems = [
     tiles: [
       { type: "image", pos: "pos-bottom-right", w: "30vw", ratio: "16 / 9", src: "https://www.ghibli.jp/gallery/ponyo001.jpg", alt: "Ponyo", depth: 15, z: 2 },
       { type: "text", pos: "pos-top-left", w: "450px", ratio: "16 / 9", heading: "Ponyo", copy: "A goldfish princess longs to become human and befriends a boy named Sosuke.", depth: 10, z: 3 },
-      { type: "image", pos: "pos-top-quarter-left", w: "35vw", ratio: "16 / 9", src: "https://www.ghibli.jp/gallery/ponyo022.jpg", alt: "Ocean", depth: 25, z: 1 }
+      { type: "video", pos: "pos-top-quarter-left", w: "35vw", ratio: "16 / 9", src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4", alt: "Ponyo Video", depth: 25, z: 1 }
     ],
   }
 ];
@@ -433,7 +434,7 @@ function initYearSwapAndTheme() {
       yearLayerOpacity: 1,
     },
     ponyo: {
-      bg: "#ffffff",
+      bg: "#c8f4abff",
       fg: "#111111",
       muted: "rgba(17, 17, 17, 0.7)",
       year: "#2a2a2a",
